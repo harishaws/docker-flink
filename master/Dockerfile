@@ -9,7 +9,7 @@ COPY master.sh /
 #RUN chmod +x /usr/local/flink/bin/jobmanager.sh
 ENV FLINK_MASTER_LOG /usr/local/flink/log
 
-RUN cd /user/local/flink
+
 RUN wget https://s3-us-west-1.amazonaws.com/flinkjarfile/Docker_Swarm.jar
 
 
