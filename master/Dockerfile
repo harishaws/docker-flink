@@ -11,6 +11,7 @@ ENV FLINK_MASTER_LOG /usr/local/flink/log
 
 
 RUN wget https://s3-us-west-1.amazonaws.com/flinkjarfile/Docker_Swarm.jar
+RUN wget https://s3-us-west-1.amazonaws.com/flinkjarfile/Docker_e2e.jar
 
 
 EXPOSE 6123 22 8080
